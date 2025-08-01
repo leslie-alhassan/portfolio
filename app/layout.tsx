@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from 'next-themes'
+import { VercelAnalytics } from './lib/analytics/analytics'
 
 const inter = Inter({
   variable: '--font-inter',
@@ -60,6 +61,7 @@ export default function RootLayout({
         >
           <main>{children}</main>
         </ThemeProvider>
+        <VercelAnalytics />
       </body>
     </html>
   )
