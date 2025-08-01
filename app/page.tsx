@@ -44,7 +44,7 @@ export default function HomePage() {
               linkedin
             </ExternalLink>
             <ExternalLink
-              href='mailto:contact@leslie.casa'
+              href='mailto:contact@leslie.sh'
               className={secondaryTextClass}
             >
               mail
