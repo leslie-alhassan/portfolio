@@ -15,13 +15,11 @@ export default function HomePage() {
       <div className='m-auto flex flex-col w-full max-w-md px-8 sm:px-12 md:px-0 md:w-1/2 lg:w-1/3'>
         {/* Header */}
         <h1 className='font-medium mb-2'>leslie al-hassan</h1>
-        <p className={`${secondaryTextClass} mb-8`}>
-          software engineer based in Toronto, Canada
-        </p>
+        <p className={`${secondaryTextClass} mb-8`}>full stack developer</p>
 
         <div className='space-y-4 mb-8'>
           <p>
-            software developer @{' '}
+            currently @{' '}
             <ExternalLink href='https://www.northone.com/'>
               North One
             </ExternalLink>
