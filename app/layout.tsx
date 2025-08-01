@@ -11,7 +11,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'leslie - home',
+  title: 'leslie al-hassan',
   description:
     'Software engineer based in Toronto, Canada. Full stack developer at North One.',
   keywords: [

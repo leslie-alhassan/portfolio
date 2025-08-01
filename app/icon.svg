@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- Black background -->
+  <rect width="32" height="32" rx="6" fill="#000000"/>
+  
+  <!-- Main geometric L shape -->
+  <path d="M8 8 L8 24 L24 24 L24 20 L12 20 L12 8 Z" fill="#ffffff"/>
+  
+  <!-- Negative space triangles for visual interest -->
+  <polygon points="12,8 16,8 12,12" fill="#000000"/>
+  <polygon points="20,20 24,20 20,24" fill="#000000"/>
+  
+  <!-- Accent geometric elements -->
+  <rect x="16" y="12" width="8" height="2" fill="#000000"/>
+  <rect x="14" y="14" width="2" height="6" fill="#000000"/>
+</svg>
