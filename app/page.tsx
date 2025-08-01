@@ -25,7 +25,7 @@ export default function HomePage() {
             </ExternalLink>
           </p>
 
-          <ExternalLink href='/resume.pdf'>resume</ExternalLink>
+          {/* <ExternalLink href='/resume.pdf'>resume</ExternalLink> */}
         </div>
 
         {/* Footer */}
