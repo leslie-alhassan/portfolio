@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from 'next-themes'
 import { VercelAnalytics } from './lib/analytics/analytics'
+import { VercelSpeedInsights } from './lib/analytics/speed-insights'
 
 const inter = Inter({
   variable: '--font-inter',
@@ -62,6 +63,7 @@ export default function RootLayout({
           <main>{children}</main>
         </ThemeProvider>
         <VercelAnalytics />
+        <VercelSpeedInsights />
       </body>
     </html>
   )
