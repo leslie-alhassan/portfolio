@@ -13,8 +13,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "leslie al-hassan",
-  description:
-    "Software engineer based in Paris, France. Full stack developer at North One.",
+  description: "Software engineer based in Paris, France.",
   keywords: [
     "software engineer",
     "software developer",
